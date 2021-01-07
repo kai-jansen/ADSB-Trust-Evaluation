@@ -1,0 +1,239 @@
+-----------------------------------------------------
+| 15.02.2020 00:00:00 -> UNIX Timestamp: 1581724800 |
+-----------------------------------------------------
+
+%%%%% 00 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581724800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 01 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581728400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 02 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581732000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 03 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581735600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 04 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581739200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 05 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581742800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 06 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581746400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 07 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581750000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 08 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581753600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 09 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581757200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 10 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581760800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 11 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581764400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 12 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581768000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 13 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581771600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 14 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581775200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 15 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581778800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 16 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581782400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 17 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581786000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 18 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581789600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 19 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581793200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 20 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581796800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 21 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581800400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 22 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581804000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 23 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581807600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+
+-----------------------------------------------------
+| 17.02.2020 00:00:00 -> UNIX Timestamp: 1581897600 |
+-----------------------------------------------------
+
+%%%%% 00 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581897600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 01 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581901200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 02 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581904800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 03 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581908400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 04 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581912000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 05 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581915600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 06 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581919200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 07 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581922800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 08 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581926400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 09 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581930000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 10 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581933600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 11 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581937200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 12 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581940800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 13 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581944400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 14 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581948000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 15 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581951600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 16 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581955200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 17 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581958800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 18 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581962400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 19 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581966000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 20 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581969600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 21 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581973200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 22 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581976800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 23 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1581980400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+
+-----------------------------------------------------
+| 22.02.2020 00:00:00 -> UNIX Timestamp: 1582329600 |
+-----------------------------------------------------
+
+%%%%% 00 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582329600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 01 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582333200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 02 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582336800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 03 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582340400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 04 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582344000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 05 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582347600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 06 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582351200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 07 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582354800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 08 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582358400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 09 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582362000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 10 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582365600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 11 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582369200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 12 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582372800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 13 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582376400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 14 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582380000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 15 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582383600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 16 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582387200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 17 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582390800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 18 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582394400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 19 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582398000 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 20 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582401600 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 21 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582405200 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 22 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582408800 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+%%%%% 23 %%%%%
+SELECT time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact,GROUP_CONCAT(CAST(serials.item AS STRING),',') FROM state_vectors_data4,state_vectors_data4.serials WHERE lat>=30 AND lat<=75 AND lon>=-25 AND lon<=45 AND hour=1582412400 GROUP BY time,icao24,lat,lon,velocity,heading,vertrate,callsign,onground,alert,spi,squawk,baroaltitude,geoaltitude,lastposupdate,lastcontact ORDER BY time asc;
+
+
+
+
+----------------------------
+| Conversion .txt -> .csv: |
+----------------------------
+cat 00.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 00.csv ; cat 01.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 01.csv ; cat 02.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 02.csv ; cat 03.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 03.csv ; cat 04.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 04.csv ; cat 05.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 05.csv ; cat 06.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 06.csv ; cat 07.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 07.csv ; cat 08.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 08.csv ; cat 09.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 09.csv ; cat 10.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 10.csv ; cat 11.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 11.csv ; cat 12.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 12.csv ; cat 13.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 13.csv ; cat 14.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 14.csv ; cat 15.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 15.csv ; cat 16.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 16.csv ; cat 17.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 17.csv ; cat 18.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 18.csv ; cat 19.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 19.csv ; cat 20.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 20.csv ; cat 21.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 21.csv ; cat 22.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 22.csv ; cat 23.txt | grep "^|.*" | sed -e 's/\s*,\s*/;/g' -e 's/\s*|\s*/,/g' -e 's/^,\|,$//g' -e 's/NULL//g' | awk '!seen[$0]++' >> 23.csv
+
+grep -rl "group_concat(cast(serials.item as string);';')" *.csv | xargs sed -i "s/group_concat(cast(serials.item as string);';')/sensors/g"
